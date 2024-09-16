@@ -35,5 +35,19 @@ npm run deploy
 ```
 
 Does a subtree push of the dist folder to the gh-pages branch.
-Note, in order to commit changes to the dist folder, it will need to be removed
-from the .gitignore file.
+
+Before running npm run deploy
+
+1. remove dist from .gitignore
+2. run the following commands:
+
+```console
+npm run build
+git add dist && git commit -m "commit-message"
+```
+
+replacing commit-message with the desired commit message.
+
+ESLint and Prettier have been added to the dependencies.
+Information on ESLint can be found [here](https://eslint.org/).
+Information on Prettier can be found [here](https://prettier.io/).
