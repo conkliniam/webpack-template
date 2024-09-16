@@ -40,15 +40,15 @@ Before running npm run deploy
 
 1.  remove dist from .gitignore
 2.  run the following commands:
-    2.1.
-    `console
-    npm run build
-    `
-    2.2.
-    `console
-    git add dist && git commit -m "commit-message"
-    `
 
-        replacing commit-message with the desired commit message.
+```console
+    npm run build
+```
+
+```console
+git add dist && git commit -m "commit-message"
+```
+
+replacing commit-message with the desired commit message.
 
 [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) have been added to the dependencies.
