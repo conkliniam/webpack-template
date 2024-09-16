@@ -38,16 +38,17 @@ Does a subtree push of the dist folder to the gh-pages branch.
 
 Before running npm run deploy
 
-1. remove dist from .gitignore
-2. run the following commands:
+1.  remove dist from .gitignore
+2.  run the following commands:
+    2.1.
+    `console
+    npm run build
+    `
+    2.2.
+    `console
+    git add dist && git commit -m "commit-message"
+    `
 
-```console
-npm run build
-git add dist && git commit -m "commit-message"
-```
+        replacing commit-message with the desired commit message.
 
-replacing commit-message with the desired commit message.
-
-ESLint and Prettier have been added to the dependencies.
-Information on ESLint can be found [here](https://eslint.org/).
-Information on Prettier can be found [here](https://prettier.io/).
+[ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) have been added to the dependencies.
