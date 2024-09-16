@@ -38,11 +38,11 @@ Does a subtree push of the dist folder to the gh-pages branch.
 
 Before running npm run deploy
 
-1.  remove dist from .gitignore
-2.  run the following commands:
+1.  Remove dist from .gitignore
+2.  Run the following commands:
 
 ```console
-    npm run build
+npm run build
 ```
 
 ```console
