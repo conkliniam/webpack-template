@@ -1,4 +1,4 @@
-# webpack-template
+# Webpack Template
 
 This repository is a template for front-end projects using webpack.
 
@@ -51,4 +51,8 @@ git add dist && git commit -m "commit-message"
 
 replacing commit-message with the desired commit message.
 
-[ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) have been added to the dependencies.
+## Added dependencies include:
+
+- [ESLint](https://eslint.org/) for linting.
+- [Prettier](https://prettier.io/) for code styling.
+- [Babel](https://babeljs.io/) for transpiling.
